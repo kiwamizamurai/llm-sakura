@@ -1,7 +1,8 @@
 # llm-sakura
 
-[LLM](https://llm.datasette.io/) plugin for the chat and embedding models hosted by Sakura
-Internet's [Sakura AI Engine](https://cloud.sakura.ad.jp/products/ai-engine/) (さくらのAI Engine).
+Plugin for [LLM](https://llm.datasette.io/) by Simon Willison, giving access to the chat and
+embedding models hosted by Sakura Internet's
+[Sakura AI Engine](https://cloud.sakura.ad.jp/products/ai-engine/) (さくらのAI Engine).
 
 > [!WARNING]
 > Status: alpha. This is an unofficial plugin, not affiliated with Sakura Internet.
@@ -122,3 +123,10 @@ To record them again against the real API:
 ```bash
 PYTEST_SAKURA_AI_ENGINE_TOKEN="$(llm keys get sakura)" uv run pytest --record-mode once
 ```
+
+## Credits / クレジット
+
+- [LLM](https://github.com/simonw/llm) by [Simon Willison](https://simonwillison.net/), the
+  CLI tool and Python library this plugin extends.
+- [Sakura AI Engine](https://cloud.sakura.ad.jp/products/ai-engine/) by Sakura Internet, which
+  hosts the models.
