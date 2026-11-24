@@ -3,6 +3,7 @@
 [LLM](https://llm.datasette.io/) plugin for the chat and embedding models hosted by Sakura
 Internet's [Sakura AI Engine](https://cloud.sakura.ad.jp/products/ai-engine/) (さくらのAI Engine).
 
+> [!WARNING]
 > Status: alpha. This is an unofficial plugin, not affiliated with Sakura Internet.
 > 非公式のプラグインです。さくらインターネットとは関係ありません。
 
