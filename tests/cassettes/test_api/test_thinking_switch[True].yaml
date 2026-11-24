@@ -1,0 +1,212 @@
+interactions:
+- request:
+    body: "{\"model\":\"preview/Qwen3.6-35B-A3B\",\"stream\":true,\"messages\":[{\"role\":\"user\",\"content\":\"1+1\u306F\uFF1F\u6570\u5B57\u3060\u3051\"}],\"max_tokens\":1500,\"stream_options\":{\"include_usage\":true},\"chat_template_kwargs\":{\"enable_thinking\":true}}"
+    headers:
+      accept:
+      - application/json
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '218'
+      content-type:
+      - application/json
+      host:
+      - api.ai.sakura.ad.jp
+      user-agent:
+      - OpenAI/Python 3.58.0
+      x-stainless-arch:
+      - arm64
+      x-stainless-async:
+      - 'false'
+      x-stainless-lang:
+      - python
+      x-stainless-os:
+      - MacOS
+      x-stainless-package-version:
+      - 3.58.0
+      x-stainless-read-timeout:
+      - '600'
+      x-stainless-retry-count:
+      - '0'
+      x-stainless-runtime:
+      - CPython
+      x-stainless-runtime-version:
+      - 3.13.2
+    method: POST
+    uri: https://api.ai.sakura.ad.jp/v1/chat/completions
+  response:
+    body:
+      string: "data: {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"role\":\"assistant\",\"content\":\"\"},\"logprobs\":null,\"finish_reason\":null}],\"prompt_token_ids\":null,\"prompt_text\":null}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"We\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        need\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        to\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        answer\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        \\\"\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"1\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"+\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"1\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"\u306F\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"\uFF1F\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"\u6570\u5B57\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"\u3060\u3051\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"\\\".\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        This\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        is\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        Japanese\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\".\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        \\\"\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"1\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"+\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"1\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"\u306F\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"\uFF1F\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"\\\"\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        means\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        \\\"\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"What\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        is\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        \"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"1\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"+\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"1\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"?\\\"\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        and\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        \\\"\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"\u6570\u5B57\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"\u3060\u3051\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"\\\"\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        means\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        \\\"\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"only\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        the\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        number\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"\\\".\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        So\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        the\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        answer\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        should\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        be\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        just\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        the\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        number\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\",\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        without\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        any\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        additional\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        text\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\".\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        So\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        \"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"1\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"+\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"1\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        equals\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        \"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"2\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\".\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        So\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        the\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        answer\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        should\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        be\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        \\\"\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"2\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"\\\".\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        But\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        we\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        need\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        to\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        output\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        only\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        the\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        number\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\".\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        So\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        I\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"'ll\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        respond\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        with\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        \\\"\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"2\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"\\\".\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"\\n\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{\"content\":\"\\n\\n2\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[{\"index\":0,\"delta\":{},\"logprobs\":null,\"finish_reason\":\"stop\",\"stop_reason\":null,\"token_ids\":null}]}\n\ndata:
+        {\"id\":\"chatcmpl-bedd9a3ce1fef6d1\",\"object\":\"chat.completion.chunk\",\"created\":1795483920,\"model\":\"preview/Qwen3.6-35B-A3B\",\"choices\":[],\"usage\":{\"prompt_tokens\":17,\"total_tokens\":114,\"completion_tokens\":97}}\n\ndata:
+        [DONE]\n\n"
+    headers:
+      cache-control:
+      - no-cache
+      content-type:
+      - text/event-stream
+      date:
+      - Tue, 24 Nov 2026 01:32:00 GMT
+      transfer-encoding:
+      - chunked
+      vary:
+      - Origin
+      via:
+      - 1.1 sac-elb
+      x-request-id:
+      - 01M85JWSVAVBA5XE1Z751XKT9Z
+      x-worker-id:
+      - ryuiEr0AF5MKLLj2
+    status:
+      code: 200
+      message: OK
+version: 1

@@ -1,0 +1,66 @@
+interactions:
+- request:
+    body: "{\"model\":\"preview/GLM-5.3-Flash\",\"stream\":false,\"messages\":[{\"role\":\"user\",\"content\":\"\u65E5\u672C\u306E\u9996\u90FD\u3092\u4E00\u8A00\u3067\"}],\"max_tokens\":1500}"
+    headers:
+      accept:
+      - application/json
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '135'
+      content-type:
+      - application/json
+      host:
+      - api.ai.sakura.ad.jp
+      user-agent:
+      - AsyncOpenAI/Python 3.58.0
+      x-stainless-arch:
+      - arm64
+      x-stainless-async:
+      - async:asyncio
+      x-stainless-lang:
+      - python
+      x-stainless-os:
+      - MacOS
+      x-stainless-package-version:
+      - 3.58.0
+      x-stainless-read-timeout:
+      - '600'
+      x-stainless-retry-count:
+      - '0'
+      x-stainless-runtime:
+      - CPython
+      x-stainless-runtime-version:
+      - 3.13.2
+    method: POST
+    uri: https://api.ai.sakura.ad.jp/v1/chat/completions
+  response:
+    body:
+      string: "{\"id\":\"chatcmpl-b766fffa18b3dc9b\",\"object\":\"chat.completion\",\"created\":1795483918,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"**\u6771\u4EAC**\",\"refusal\":null,\"annotations\":null,\"audio\":null,\"function_call\":null,\"reasoning\":\"The
+        user is asking in Japanese: \\\"\u65E5\u672C\u306E\u9996\u90FD\u3092\u4E00\u8A00\u3067\\\"
+        which means \\\"Japan's capital in one word\\\" or \\\"Tell me Japan's capital
+        in one word.\\\"\\n\\nThis is a simple factual question. The answer is \u6771\u4EAC
+        (Tokyo).\\n\\nThe user explicitly asked for a one-word answer (\\\"\u4E00\u8A00\u3067\\\"
+        = \\\"in one word/phrase\\\"), so I should respect that and give a very brief
+        response.\\n\\nThe answer: \u6771\u4EAC\"},\"logprobs\":null,\"finish_reason\":\"stop\",\"stop_reason\":154827,\"token_ids\":null,\"routed_experts\":null,\"weight_versions\":null}],\"service_tier\":null,\"system_fingerprint\":null,\"usage\":{\"prompt_tokens\":18,\"total_tokens\":115,\"completion_tokens\":97,\"prompt_tokens_details\":null,\"completion_tokens_details\":{\"reasoning_tokens\":92}},\"prompt_logprobs\":null,\"prompt_token_ids\":null,\"prompt_text\":null,\"kv_transfer_params\":null,\"ec_transfer_params\":null,\"metrics\":null}"
+    headers:
+      content-length:
+      - '1119'
+      content-type:
+      - application/json
+      date:
+      - Tue, 24 Nov 2026 01:31:59 GMT
+      vary:
+      - Origin
+      via:
+      - 1.1 sac-elb
+      x-request-id:
+      - 01M85JWR7F89CGSXP8AG7843RX
+      x-worker-id:
+      - QVyYUEOppxoj9rAL
+    status:
+      code: 200
+      message: OK
+version: 1

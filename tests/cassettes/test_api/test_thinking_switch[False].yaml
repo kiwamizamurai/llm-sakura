@@ -1,0 +1,77 @@
+interactions:
+- request:
+    body: "{\"model\":\"preview/Qwen3.6-35B-A3B\",\"stream\":true,\"messages\":[{\"role\":\"user\",\"content\":\"1+1\u306F\uFF1F\u6570\u5B57\u3060\u3051\"}],\"max_tokens\":1500,\"stream_options\":{\"include_usage\":true},\"chat_template_kwargs\":{\"enable_thinking\":false}}"
+    headers:
+      accept:
+      - application/json
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '219'
+      content-type:
+      - application/json
+      host:
+      - api.ai.sakura.ad.jp
+      user-agent:
+      - OpenAI/Python 3.58.0
+      x-stainless-arch:
+      - arm64
+      x-stainless-async:
+      - 'false'
+      x-stainless-lang:
+      - python
+      x-stainless-os:
+      - MacOS
+      x-stainless-package-version:
+      - 3.58.0
+      x-stainless-read-timeout:
+      - '600'
+      x-stainless-retry-count:
+      - '0'
+      x-stainless-runtime:
+      - CPython
+      x-stainless-runtime-version:
+      - 3.13.2
+    method: POST
+    uri: https://api.ai.sakura.ad.jp/v1/chat/completions
+  response:
+    body:
+      string: 'data: {"id":"chatcmpl-a1d58a2b38c09292","object":"chat.completion.chunk","created":1795483921,"model":"preview/Qwen3.6-35B-A3B","choices":[{"index":0,"delta":{"role":"assistant","content":""},"logprobs":null,"finish_reason":null}],"prompt_token_ids":null,"prompt_text":null}
+
+
+        data: {"id":"chatcmpl-a1d58a2b38c09292","object":"chat.completion.chunk","created":1795483921,"model":"preview/Qwen3.6-35B-A3B","choices":[{"index":0,"delta":{"content":"2"},"logprobs":null,"finish_reason":null,"token_ids":null}]}
+
+
+        data: {"id":"chatcmpl-a1d58a2b38c09292","object":"chat.completion.chunk","created":1795483921,"model":"preview/Qwen3.6-35B-A3B","choices":[{"index":0,"delta":{},"logprobs":null,"finish_reason":"stop","stop_reason":null,"token_ids":null}]}
+
+
+        data: {"id":"chatcmpl-a1d58a2b38c09292","object":"chat.completion.chunk","created":1795483921,"model":"preview/Qwen3.6-35B-A3B","choices":[],"usage":{"prompt_tokens":19,"total_tokens":21,"completion_tokens":2}}
+
+
+        data: [DONE]
+
+
+        '
+    headers:
+      cache-control:
+      - no-cache
+      content-length:
+      - '974'
+      content-type:
+      - text/event-stream
+      date:
+      - Tue, 24 Nov 2026 01:32:01 GMT
+      vary:
+      - Origin
+      via:
+      - 1.1 sac-elb
+      x-request-id:
+      - 01M85JWTSP33JWKYY3AT3M0VFS
+      x-worker-id:
+      - XgaRWAaKtyurTCpk
+    status:
+      code: 200
+      message: OK
+version: 1

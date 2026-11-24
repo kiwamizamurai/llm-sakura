@@ -1,0 +1,330 @@
+interactions:
+- request:
+    body: "{\"model\":\"preview/GLM-5.3-Flash\",\"stream\":true,\"messages\":[{\"role\":\"user\",\"content\":\"\u65E5\u672C\u306E\u9996\u90FD\u3092\u4E00\u8A00\u3067\"}],\"max_tokens\":1500,\"stream_options\":{\"include_usage\":true}}"
+    headers:
+      accept:
+      - application/json
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '174'
+      content-type:
+      - application/json
+      host:
+      - api.ai.sakura.ad.jp
+      user-agent:
+      - AsyncOpenAI/Python 3.58.0
+      x-stainless-arch:
+      - arm64
+      x-stainless-async:
+      - async:asyncio
+      x-stainless-lang:
+      - python
+      x-stainless-os:
+      - MacOS
+      x-stainless-package-version:
+      - 3.58.0
+      x-stainless-read-timeout:
+      - '600'
+      x-stainless-retry-count:
+      - '0'
+      x-stainless-runtime:
+      - CPython
+      x-stainless-runtime-version:
+      - 3.13.2
+    method: POST
+    uri: https://api.ai.sakura.ad.jp/v1/chat/completions
+  response:
+    body:
+      string: "data: {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"role\":\"assistant\",\"content\":\"\"},\"logprobs\":null,\"finish_reason\":null}],\"prompt_token_ids\":null,\"prompt_text\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"The\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        user\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        is\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        asking\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        in\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        Japanese\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\":\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        \\\"\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"\u65E5\u672C\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"\u306E\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"\u9996\u90FD\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"\u3092\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"\u4E00\u8A00\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"\u3067\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"\\\"\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        which\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        means\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        \\\"\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"Japan\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"'s\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        capital\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        in\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        one\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        word\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"\\\"\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        or\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        \\\"\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"What\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        is\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        Japan\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"'s\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        capital\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        in\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        one\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        word\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"?\\\"\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"\\n\\nThis\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        is\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        a\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        simple\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        factual\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        question\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\".\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        The\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        answer\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        is\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        \u6771\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"\u4EAC\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        (\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"Tok\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"yo\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\").\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"\\n\\nThe\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        user\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        explicitly\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        asked\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        for\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        \\\"\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"\u4E00\u8A00\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"\u3067\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"\\\"\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        (\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"in\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        one\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        word\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"/\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"phrase\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"),\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        so\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        I\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        should\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        give\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        a\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        very\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        brief\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        answer\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\".\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        The\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        answer\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        is\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        simply\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        \\\"\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"\u6771\u4EAC\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"\\\"\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        (\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"Tok\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"yo\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\").\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"\\n\\nI\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        should\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        respond\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        in\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        Japanese\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        since\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        the\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        question\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        was\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        asked\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        in\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        Japanese\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\".\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        The\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        user\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        wants\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        bre\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"v\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"ity\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        -\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        just\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        one\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        word\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\".\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        So\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        my\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        response\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        should\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        just\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        be\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        \\\"\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"\u6771\u4EAC\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"\\\"\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        possibly with\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        minimal additional context,\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        but\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        given\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        they\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        explicitly\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        asked\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        for\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        one\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        word\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\",
+        I should honor that request.\\n\\nFormat\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\":\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        Extremely\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        short\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\",\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        just\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        the\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        answer\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\".\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        No\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        headers\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\",\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        no\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        lists\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\",\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        no\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        explanation\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        needed\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        since\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        they\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        asked\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        for\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        one\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\"
+        word\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"reasoning\":\".\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{\"content\":\"\u6771\u4EAC\"},\"logprobs\":null,\"finish_reason\":null,\"token_ids\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[{\"index\":0,\"delta\":{},\"logprobs\":null,\"finish_reason\":\"stop\",\"stop_reason\":154827,\"token_ids\":null,\"weight_versions\":null}],\"kv_transfer_params\":null}\n\ndata:
+        {\"id\":\"chatcmpl-9f8a4999d4d00edc\",\"object\":\"chat.completion.chunk\",\"created\":1795483916,\"model\":\"preview/GLM-5.3-Flash\",\"choices\":[],\"usage\":{\"prompt_tokens\":18,\"total_tokens\":189,\"completion_tokens\":171,\"completion_tokens_details\":{\"reasoning_tokens\":167}}}\n\ndata:
+        [DONE]\n\n"
+    headers:
+      cache-control:
+      - no-cache
+      content-type:
+      - text/event-stream
+      date:
+      - Tue, 24 Nov 2026 01:31:56 GMT
+      transfer-encoding:
+      - chunked
+      vary:
+      - Origin
+      via:
+      - 1.1 sac-elb
+      x-request-id:
+      - 01M85JWNVD1EJ14H8K82VNTWZJ
+      x-worker-id:
+      - ZHch5zWF4DBG0Djf
+    status:
+      code: 200
+      message: OK
+version: 1

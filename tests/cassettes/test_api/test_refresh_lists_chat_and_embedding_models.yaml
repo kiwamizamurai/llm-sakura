@@ -1,0 +1,38 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      host:
+      - api.ai.sakura.ad.jp
+      user-agent:
+      - python-httpx2/2.16.2
+    method: GET
+    uri: https://api.ai.sakura.ad.jp/v1/models
+  response:
+    body:
+      string: '{"object":"list","data":[{"id":"whisper-large-v3-turbo","object":"model","owned_by":"sakura","created":1756188390},{"id":"preview/Qwen3-VL-30B-A3B-Instruct","object":"model","owned_by":"sakura","created":1761012000},{"id":"preview/GLM-5.3-Flash","object":"model","owned_by":"sakura","created":1794965400},{"id":"gpt-oss-120b","object":"model","owned_by":"sakura","created":1755765369},{"id":"llm-jp-3.1-8x13b-instruct4","object":"model","owned_by":"sakura","created":1758179200},{"id":"preview/Qwen3-0.6B-cpu","object":"model","owned_by":"sakura","created":1759975200},{"id":"preview/Phi-4-mini-instruct-cpu","object":"model","owned_by":"sakura","created":1759975200},{"id":"preview/Qwen3-Embedding-4B-FP16","object":"model","owned_by":"sakura","created":1765846800},{"id":"preview/gemma-4-31B-it","object":"model","owned_by":"sakura","created":1782781200},{"id":"preview/Qwen3.6-35B-A3B","object":"model","owned_by":"sakura","created":1780534800},{"id":"preview/DeepSeek-V4.1-Flash-1017","object":"model","owned_by":"sakura","created":1794965400},{"id":"preview/Kimi-K2.7-Code","object":"model","owned_by":"sakura","created":1785207600},{"id":"multilingual-e5-large","object":"model","owned_by":"sakura","created":1755880944}]}
+
+        '
+    headers:
+      content-length:
+      - '1229'
+      content-type:
+      - application/json
+      date:
+      - Tue, 24 Nov 2026 01:31:52 GMT
+      vary:
+      - Origin
+      via:
+      - 1.1 sac-elb
+      x-request-id:
+      - 01M85JWJ5446QB48XPQD92EE20
+    status:
+      code: 200
+      message: OK
+version: 1

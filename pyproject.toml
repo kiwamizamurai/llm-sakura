@@ -1,0 +1,36 @@
+[project]
+name = "llm-sakura"
+version = "0.1a0"
+description = "LLM plugin for models hosted by Sakura Internet's Sakura AI Engine (さくらのAI Engine)"
+readme = "README.md"
+authors = [{name = "kiwamizamurai"}]
+license = "Apache-2.0"
+classifiers = []
+requires-python = ">=3.11"
+dependencies = [
+    "llm>=0.38",
+    "httpx2",
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.uv]
+package = true
+
+# TODO: fill these in once the GitHub repository exists
+# [project.urls]
+# Homepage = "https://github.com/<owner>/llm-sakura"
+# Changelog = "https://github.com/<owner>/llm-sakura/releases"
+# Issues = "https://github.com/<owner>/llm-sakura/issues"
+# CI = "https://github.com/<owner>/llm-sakura/actions"
+
+[project.entry-points.llm]
+sakura = "llm_sakura"
+
+[dependency-groups]
+dev = ["pytest", "pytest-recording", "pytest-asyncio"]
+
+[tool.pytest.ini_options]
+asyncio_default_fixture_loop_scope = "function"
